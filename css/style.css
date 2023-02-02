@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: pink;
+}
+
+.box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 5s;
+}
+
+.container:hover .box {
+    top: 400px;
+}
+
+.box-2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+
+
